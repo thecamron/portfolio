@@ -1,0 +1,57 @@
+body{
+    background-color: #000;
+    color: #00fa00;
+    font-family: monospace;
+    margin: 0 px;
+}
+
+#rbutton{
+    color: rgb(1, 1, 1);
+    background-color: rgb(163, 78, 77);
+    cursor: pointer;
+    text-align:right;
+
+}
+
+.container {
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.container h6{
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 2s steps(30,end);
+}
+
+
+
+@keyframes type{
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes caret-blink{
+    0% {
+        border-color: transparent;
+    }
+
+    100%{
+        border-color: transparent;
+    }
+}
+#cmd
+{
+    background-color: #000;
+    border: none;
+    color: #00fa00;
+}
